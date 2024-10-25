@@ -2,10 +2,6 @@
   "version": 1,
   "rules": [
     {
-      "outbound": "currentSelected",
-      "name": "itdoginfo_allow-domains",
-      "switch": true,
-      "or": true,
       "domain_suffix": [
         "101.ru",
         "16-bits.ru",

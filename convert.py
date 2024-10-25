@@ -115,10 +115,6 @@ def karing(src, out, single=None, remove={'google.com'}):
         "version": 1,
         "rules": [
             {
-                "outbound": "currentSelected",
-                "name": "itdoginfo_allow-domains",
-                "switch": True,
-                "or": True,
                 "domain_suffix": []
             }
         ]
